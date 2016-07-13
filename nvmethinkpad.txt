@@ -1,0 +1,24 @@
+
+/dev/nvme0n1 OTHER SAMSUNG MZVLW512HMJP-000L7               6L7QCX*7 S359NX0J312***      
+TPer function (0x0001)
+    ACKNAK = N, ASYNC = N. BufferManagement = N, comIDManagement  = N, Streaming = Y, SYNC = Y
+Locking function (0x0002)
+    Locked = N, LockingEnabled = N, LockingSupported = Y, MBRDone = N, MBREnabled = N, MediaEncrypt = Y
+Geometry function (0x0003)
+    Align = Y, Alignment Granularity = 8 (4096), Logical Block size = 512, Lowest Aligned LBA = 0
+DataStore function (0x0202)
+    Max Tables = 9, Max Size Tables = 10485760, Table size alignment = 1
+OPAL 2.0 function (0x0203)
+    Base comID = 0x1004, Initial PIN = 0x0, Reverted PIN = 0x0, comIDs = 1
+    Locking Admins = 4, Locking Users = 9, Range Crossing = N
+
+TPer Properties: 
+  MaxComPacketSize = 66048  MaxResponseComPacketSize = 66048
+  MaxPacketSize = 66028  MaxIndTokenSize = 65540  MaxPackets = 1
+  MaxSubpackets = 1  MaxMethods = 1  MaxAuthentications = 5
+  MaxSessions = 1  MaxTransactionLimit = 1  DefSessionTimeout = 0
+
+Host Properties: 
+  MaxComPacketSize = 2048  MaxResponseComPacketSize = 2048
+  MaxPacketSize = 2028  MaxIndTokenSize = 1992  MaxPackets = 1
+  MaxSubpackets = 1  MaxMethods = 1
